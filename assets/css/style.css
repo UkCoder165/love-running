@@ -291,15 +291,18 @@ hr {
         order: 1;
     }
     benefits-mental {
-        order: 1; }
+        order: 1;
 
     }
     #benefits-mental > div {
         align-self: flex-start;
     }
 
-    #benefits-self: flex-end;
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
 }
+
 
 
 
